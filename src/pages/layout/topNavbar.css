@@ -1,0 +1,35 @@
+.top-main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  color: black;
+  box-shadow: 2px 2px 4px #929292;
+}
+
+.topbar-li {
+  float: left;
+}
+
+.topbar-li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* .topbar-li a:hover:not(.active) {
+  background-color: #111;
+} */
+
+.active {
+  background-color: #04AA6D;
+}
+
+.menuBar {
+  margin: 12px;
+  cursor: pointer;
+  padding-top: 4px;
+}
